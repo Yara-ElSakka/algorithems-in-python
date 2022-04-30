@@ -1,0 +1,21 @@
+listOftodos = ["go to the pool", "shopping with mom", "visit grandma" ]
+listOftodos.reverse()
+print(listOftodos)
+
+def reverseNum(x):
+
+    string = str(x)
+    if string[0] == "-":
+        return int("-" + string[:0:-1])
+    else:
+        return int(string[::-1])
+
+print(reverseNum(1122334455))
+
+input1 = "Hello world I am yara"
+input2 = "I am a future devoloper who loves to create and work together"
+username = "yara"
+if len(username) != 4:
+    print("You are not Yara ")
+else:
+    print("👍🏼")
